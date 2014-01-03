@@ -2,7 +2,7 @@ set :application, "laluna"
 set :scm, :git
 set :deploy_via, :remote_cache
 set :git_enable_submodules, 1
-set :repository, "git@github.com:jkath/LaLuna.git"
+set :repository, "git@github.com:jkath/lalunanew.git"
 set :domain,     "lalunaranchwear.com"
 
 set :user,     'deploy'
