@@ -5,14 +5,14 @@ set :git_enable_submodules, 1
 set :repository, "git@github.com:jkath/lalunanew.git"
 set :domain,     "lalunaranchwear.com"
 
-set :user,     'jkath'
+set :user,     'deploy'
 set :use_sudo, false
 ssh_options[:paranoid] = false
 
 task :staging do
   set :deploy_to,  "/var/www/html/rails/#{application}"
-  set :user,     'jkath'
-  set :password, 'devonsable1'
+  set :user,     'deploy'
+  set :password, 'd3pl0y'
   role :app, "192.168.2.15"
   role :web, "192.168.2.15"
   role :db,  "192.168.2.15", :primary => true
