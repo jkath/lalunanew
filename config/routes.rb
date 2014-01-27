@@ -9,6 +9,7 @@ ActionController::Routing::Routes.draw do |map|
   map.bootcovers '/bootcovers', :controller => 'staticpages', :action => 'bootcovers'
   map.homedecor '/homedecor', :controller => 'staticpages', :action => 'homedecor'
   map.jewelry '/jewelry', :controller => 'staticpages', :action => 'jewelry'
+  map.guntheme '/guntheme', :controller => 'staticpages', :action => 'guntheme'
   map.about '/about', :controller => 'staticpages', :action => 'about'
   map.contactme '/contactme', :controller => 'staticpages', :action => 'contactme'
 
